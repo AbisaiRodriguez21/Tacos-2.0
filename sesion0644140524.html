@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uso de bloques semanticos con bootstrap</title>
+  <link rel="stylesheet" href="estiloPractica16052024.css" type="text/css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+</head>
+<body>
+  <header>
+    <div class="container">
+          <h1>Cabecera : Header</h1>
+    </div>
+
+  </header>
+  <div class="container">
+    <section class="main row">
+    <nav class="col-xs-12 col-sm-4 col-md-3 col-lg-3" > nav <br>Contenido de la pagina
+      <ul>
+        <li><a href="#">Menu 1</a></li>
+        <li><a href="#">Menu 2</a></li>
+        <li><a href="#">Menu 3</a></li>
+      </ul>
+    </nav>
+    <article class="col-xs-12 col-sm-4 col-md-6 col-lg-6"><strong>Article &gt; section</strong>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/coche1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/coche2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/coche3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </article>
+
+    <aside class="col-xs-12 col-sm-4 col-md-3 col-lg-3">Area de contenido destacado y relacionado<strong>Aside</strong></aside>
+  </section >
+  </div>
+  <footer> 
+    <div class="container">
+    Pie: <strong>footer</strong>
+  </div>  
+  </footer>
+  <SCript src="js/bootstrap.min.js"></SCript>
+</body>
+</html>
